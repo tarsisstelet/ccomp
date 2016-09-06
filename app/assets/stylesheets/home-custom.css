@@ -1,0 +1,30 @@
+#headname {
+	font-family: roboto;
+	font-size: 1em;
+	/*margin-right: 73px;*/
+}
+#logocurso {
+	width: auto;
+	height: auto;
+}
+#txtpresentation {
+	font-size: 1.2em;
+	text-align: justify;
+}
+.logouenf {
+	margin-top: 10px;
+	width: 150px;
+	height: auto;
+}	
+
+.square{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#text {
+	text-shadow: black 0.1em 0.1em 0.1em;
+	font-family: roboto;
+	font-weight: bold;
+}

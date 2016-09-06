@@ -1,0 +1,23 @@
+.nome {
+	font-weight: bold;
+}
+
+.foto {
+	max-width: 250px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+}
+
+.title{
+
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.social{
+	width: 1.7em;
+	height: 1.7em;
+}
+
+

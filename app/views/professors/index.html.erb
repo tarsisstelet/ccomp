@@ -1,0 +1,23 @@
+<h5 class="title center-align">Professores</h5>
+<div class="row">
+	<div class="container">
+		<% @professors.each do |prof| %>
+			<div class ="row">
+				<div class ="center col s12 l3">
+				<%= image_tag(prof.avatar.url(:medium), :class => "foto responsive-img") %>
+				</div>
+				<div class="col s12 l9">
+					<br>
+					<b>Nome:</b>
+					<%= prof.name %><br>
+					<b>
+					<%= prof.role %></b><br>
+					<b>Área:</b>
+					<%= prof.area %>
+					<p><%= link_to "+", prof, method: :get, :class => "btn blue" %></p>
+				</div>
+			</div>
+		<div class="divider"></div><br>
+		<% end %>
+	</div>
+</div>

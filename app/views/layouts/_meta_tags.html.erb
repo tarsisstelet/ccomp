@@ -1,0 +1,9 @@
+
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  	<meta charset="utf-8">
+	  	<title>UENF - Ciência da Computação</title>
+	  	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  	<%= analytics_init if GoogleAnalytics.valid_tracker? %>	  
+	  	<%= csrf_meta_tags %>
